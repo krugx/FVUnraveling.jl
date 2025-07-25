@@ -12,6 +12,6 @@ include("prop.jl")
 export HEOMOperator, HEOMPropagator
 export bary_fit
 export build_heom_structure, check_stability
-export rk4_step
+export rk4_step_heom
 
 end

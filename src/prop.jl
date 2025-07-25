@@ -1,4 +1,4 @@
-function rk4_step(phi, dt, prop::HEOMPropagator; backwards=false)
+function rk4_step_heom(phi, dt, prop::HEOMPropagator; backwards=false)
   Hfwd = prop.mat
   Hrev = prop.mat'
 
